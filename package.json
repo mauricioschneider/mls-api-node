@@ -1,6 +1,6 @@
 {
   "name": "mls",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mozilla Location Service API wrapper",
   "engines": {
     "node": ">=0.10"
@@ -20,8 +20,10 @@
     "mozilla"
   ],
   "author": "Mauricio Schneider <lemavri.com>",
-  "license": "GPLv3",
+  "license": "MIT Expat License",
   "dependencies": {
-    "needle": "^0.9.1"
+    "mocha": "^2.2.4",
+    "needle": "^0.9.1",
+    "should": "^6.0.0"
   }
 }
