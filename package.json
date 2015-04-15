@@ -1,0 +1,27 @@
+{
+  "name": "mls",
+  "version": "0.0.1",
+  "description": "Mozilla Location Service API wrapper",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lemavri/mls-api-node.git"
+  },
+  "main": "./lib/api.js",
+  "scripts": {
+    "test": "node_modules/.bin/_mocha --recursive --reporter dot"
+  },
+  "keywords": [
+    "geolocation",
+    "wifi",
+    "location",
+    "mozilla"
+  ],
+  "author": "Mauricio Schneider <lemavri.com>",
+  "license": "GPLv3",
+  "dependencies": {
+    "needle": "^0.9.1"
+  }
+}
