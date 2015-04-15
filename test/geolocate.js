@@ -1,9 +1,9 @@
-var Mls = require('../api/'),
+var Mls = require('../lib/'),
     should = require('should');
 
 describe('geolocate', function() {
 
-  var api = Mls('test');
+  var api = new Mls();
 
   describe('when no WiFi access points are provided', function() {
 
@@ -18,7 +18,7 @@ describe('geolocate', function() {
 
   });
 
-  describe('when no WiFi access points are provided', function() {
+  describe('when WiFi access points are provided', function() {
 
     it('returns a location', function (done) {
 

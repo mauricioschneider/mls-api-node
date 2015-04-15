@@ -1,6 +1,6 @@
 {
   "name": "mls",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Mozilla Location Service API wrapper",
   "engines": {
     "node": ">=0.10"
@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://github.com/lemavri/mls-api-node.git"
   },
-  "main": "./lib/api.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "node_modules/.bin/_mocha --recursive --reporter dot"
   },
