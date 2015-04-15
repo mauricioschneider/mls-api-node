@@ -11,4 +11,13 @@ Please refer to their [development documentation](https://mozilla-ichnaea.readth
 
 ### Geolocate
 
+```
+var Mls = require('mls');
+
+mls = new Mls('API_KEY'); // if no API_KEY is provided, "test" will be used
+mls.geolocate({}, function(err, loc) {
+  // loc = { location: { lat: -10.45, lng: -30.6667 }, accuracy: 50000 }
+});
+```
+
 ### Geosubmit
