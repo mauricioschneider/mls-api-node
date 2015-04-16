@@ -1,6 +1,6 @@
 {
   "name": "mls",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Mozilla Location Service API wrapper",
   "engines": {
     "node": ">=0.10"
