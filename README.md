@@ -5,7 +5,7 @@
 _Excerpt from the [Mozilla Location Service website](https://location.services.mozilla.com/)_
 
 ## API key
-Please refer to their [development documentation](https://mozilla-ichnaea.readthedocs.org/en/latest/) for further details on how to obtain an API key.
+Please refer to their [development documentation](https://mozilla-ichnaea.readthedocs.org/en/latest/api/index.html#api-access-keys) for further details on how to obtain an API key.
 
 ## How to use
 
