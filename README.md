@@ -1,5 +1,7 @@
 #Mozilla Location Service API wrapper for Node.js
 
+[![Build Status](https://travis-ci.org/lemavri/mls-api-node.svg?branch=master)](https://travis-ci.org/lemavri/mls-api-node) [![Code Climate](https://codeclimate.com/github/lemavri/mls-api-node/badges/gpa.svg)](https://codeclimate.com/github/lemavri/mls-api-node)
+
 > The Mozilla Location Service (MLS) is an open service which lets devices determine their location based on network infrastructure like WiFi access points and cell towers. This network based location service complements satellite based navigation systems like A-GPS. Combined these two approaches are one of the foundations for enabling context aware applications.
 
 _Excerpt from the [Mozilla Location Service website](https://location.services.mozilla.com/)_
